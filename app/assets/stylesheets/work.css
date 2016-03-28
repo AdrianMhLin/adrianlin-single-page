@@ -6,4 +6,14 @@
 
 #section-work article div {
 	border: dashed 1px green;
+	height:20vh;
+	background-size:cover;
 }
+
+
+#wireframes {background-image:url('/images/work/wireframe.png');}
+#site-maps {background-image:url('/images/work/site-map.png');}
+#flows {background-image:url('/images/work/flow.png');}
+#prototypes {background-image:url('/images/work/prototype.png');}
+#documents {background-image:url('/images/work/document.png');}
+#research {background-image:url('/images/work/research.png');}
