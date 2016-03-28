@@ -1,9 +1,15 @@
 #primary-nav {
 	font-size: 2.5vh;
-	background-color:white;
+	background-color:AliceBlue;
 }
-#primary-nav .nav {
+#primary-nav li {
+	color:darkslategray;
+}
+#primary-nav li:hover {
+}
 
+a.nav-active {
+	color:red;
 }
 
 

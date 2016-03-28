@@ -5,7 +5,7 @@ article {
 
 
 /* later get rid of above */
-
+body {position:relative;}
 
 section {
 	clear:both;

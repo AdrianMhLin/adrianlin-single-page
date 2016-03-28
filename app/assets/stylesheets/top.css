@@ -1,4 +1,4 @@
-#section-top {
+#top {
 	background-image: url('/images/top/bg.jpg');
 	background-attachment: fixed;
 	background-size:cover;
@@ -6,7 +6,7 @@
 	height:90vh;
 }
 
-#section-top div {
+#top div {
 	text-align: center;
 	margin: 33vh 0 0 0;
 }
