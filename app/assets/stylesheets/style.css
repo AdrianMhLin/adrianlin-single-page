@@ -1,0 +1,17 @@
+section {
+	border: 1px solid black;
+}
+article {
+	border: 1px dashed grey;
+}
+
+/* later get rid of above */
+
+
+section {
+	clear:both;
+}
+
+article img {
+	width:100%;
+}
