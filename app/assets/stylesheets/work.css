@@ -1,0 +1,9 @@
+#section-work article {
+	clear:both;
+	margin: 2vw 0 2vw 0;
+}
+
+
+#section-work article div {
+	border: dashed 1px green;
+}
