@@ -1,0 +1,14 @@
+#contact-media img {
+	width: 5vw;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .1s ease;  /* Transition for Webkit browsers */
+}
+
+#contact-media img:hover {
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
+

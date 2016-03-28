@@ -1,0 +1,109 @@
+#contact-media img {
+	width: 5vw;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .1s ease;  /* Transition for Webkit browsers */
+}
+
+#contact-media img:hover {
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
+
+#primary-nav {
+	font-size: 2.5vh;
+	background-color:white;
+}
+#primary-nav .nav {
+
+}
+
+
+section {
+	border: 1px solid black;
+}
+article {
+	border: 1px dashed grey;
+}
+
+
+/* later get rid of above */
+
+
+section {
+	clear:both;
+	padding: 5vw;
+}
+section h1, article h2 {text-align: center;}
+
+
+article img {width:100%;}
+
+
+
+.page-pdf {
+	width:100%;
+}
+#section-testimonials {
+	background-image: url('/images/testimonials/bg.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	width:100%;
+	height:80vh;
+}
+#section-top {
+	background-image: url('/images/top/bg.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	width:100%;
+	height:90vh;
+}
+
+#section-top div {
+	text-align: center;
+	margin: 33vh 0 0 0;
+}
+#section-work article {
+	clear:both;
+	margin: 2vw 0 2vw 0;
+}
+
+
+#section-work article div {
+	border: dashed 1px green;
+	height:20vh;
+	background-size:cover;
+}
+
+#wireframes {background-image:url('/images/work/skills-showcase/wireframes/thumbnail.png');}
+#site-maps {background-image:url('/images/work/skills-showcase/site-maps/thumbnail.png');}
+#flows {background-image:url('/images/work/skills-showcase/flows/thumbnail.png');}
+#prototypes {background-image:url('/images/work/skills-showcase/prototypes/thumbnail.png');}
+#documents {background-image:url('/images/work/skills-showcase/documents/thumbnail.png');}
+#research {background-image:url('/images/work/skills-showcase/research/thumbnail.png');}
+
+
+#inked-voices {background-image:url('');}
+#linkedin {background-image:url('');}
+#yelp {background-image:url('');}
+#personal-website {background-image:url('');}
+
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
