@@ -3,8 +3,8 @@
 	margin: 2vw 0 2vw 0;
 }
 
-
-#work article div {
+#work section {padding:0;}
+#work div {
 	border: dashed 1px green;
 	height:20vh;
 	background-size:cover;
