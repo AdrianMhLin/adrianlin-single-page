@@ -2,14 +2,15 @@
 	font-size: 2.5vh;
 	background-color:AliceBlue;
 }
-#primary-nav li {
+#primary-nav li a{
 	color:darkslategray;
 }
 #primary-nav li:hover {
 }
 
-a.nav-active {
-	color:red;
+
+#primary-nav a.nav-active {
+	color:turquoise;
 }
 
 
