@@ -1,12 +1,9 @@
 #primary-nav {
-/*	height:10vh;*/
 	font-size: 2.5vh;
+	background-color:white;
 }
 #primary-nav .nav {
 
 }
 
 
-.sticky-to-top {
-	position:fixed;
-}
