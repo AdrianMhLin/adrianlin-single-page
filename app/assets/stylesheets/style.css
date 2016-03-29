@@ -5,7 +5,10 @@ article {
 
 
 /* later get rid of above */
-body {position:relative;}
+body {
+	/*position:relative;*/
+	color:darkslategray;
+}
 
 section {
 	clear:both;
@@ -22,3 +25,21 @@ article img {width:100%;}
 .page-pdf {
 	width:100%;
 }
+
+
+
+body {
+    padding-top: 20px;
+    
+}
+
+.btn-default {
+    top: 25%;
+    left:25%; 
+    color: #999; 
+    background: #fffccc; 
+} 
+
+
+
+

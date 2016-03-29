@@ -1,21 +1,26 @@
+
+
 #work article {
 	clear:both;
 	margin: 2vw 0 2vw 0;
 }
 
-#work section {padding:0;}
-#work div {
+#work section {
+	padding:0;
+	overflow:hidden; /* causes parent to expand to size of floated children */
+}
+#work .skill, #work .project {
 	border: dashed 1px green;
 	height:20vh;
 	background-size:cover;
 }
 
-#wireframes {background-image:url('/images/work/skills-showcase/wireframes/thumbnail.png');}
-#site-maps {background-image:url('/images/work/skills-showcase/site-maps/thumbnail.png');}
-#flows {background-image:url('/images/work/skills-showcase/flows/thumbnail.png');}
-#prototypes {background-image:url('/images/work/skills-showcase/prototypes/thumbnail.png');}
-#documents {background-image:url('/images/work/skills-showcase/documents/thumbnail.png');}
-#research {background-image:url('/images/work/skills-showcase/research/thumbnail.png');}
+#wireframes {background-image:url('/images/work/skill-samples/wireframes/thumbnail.png');}
+#site-maps {background-image:url('/images/work/skill-samples/site-maps/thumbnail.png');}
+#flows {background-image:url('/images/work/skill-samples/flows/thumbnail.png');}
+#prototypes {background-image:url('/images/work/skill-samples/prototypes/thumbnail.png');}
+#documents {background-image:url('/images/work/skill-samples/documents/thumbnail.png');}
+#research {background-image:url('/images/work/skill-samples/research/thumbnail.png');}
 
 
 #inked-voices {background-image:url('');}
@@ -28,3 +33,4 @@
 	text-align: center;
 }
 
+#work .modal {min-height: 50vh;}
