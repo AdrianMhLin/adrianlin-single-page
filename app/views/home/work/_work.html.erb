@@ -1,19 +1,21 @@
 
 <h1>Work</h1>
-<nav>
-  <h2>By case study</h2>
-  <h2>By skills</h2>
-</nav>
+
+<ul class="nav nav-pills" id="work-nav">
+  <li role="presentation" id="skill-tab" class="active"><a href="#work">By Skill</a></li>
+  <li role="presentation" id="project-tab"><a href="#work">By Project</a></li>
+</ul>
+
 
 
 <section>
 
-  <article id="case-studies">
-    <%= render 'home/work/case_studies' %>
+  <article id="skill-samples">
+    <%= render 'home/work/skill_samples' %>
   </article>
 
-  <article id="skills-showcase">
-    <%= render 'home/work/skills_showcase' %>
+  <article id="project-samples">
+    <%= render 'home/work/project_samples' %>
   </article>
 
 </section>

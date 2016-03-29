@@ -23,4 +23,8 @@
 #yelp {background-image:url('');}
 #personal-website {background-image:url('');}
 
+#work .nav {
+	display:block;
+	text-align: center;
+}
 

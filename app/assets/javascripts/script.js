@@ -5,6 +5,8 @@ $(document).ready(function(){
 	setChangeStateOnScroll();
 	setScrollWhenClicked();
 
+	setUpWorkNav();
+
 });
 
 
@@ -51,3 +53,27 @@ function setScrollWhenClicked() {
 
 
 
+
+function setUpWorkNav(){
+	var workNavLi = $('#work-nav li'),
+			projectSamples = $('#project-samples'),
+			skillSamples = $('#skill-samples');
+
+	projectSamples.hide();
+
+	workNavLi.on('click', function(){
+		workNavLi.removeClass('active');
+		$(this).addClass('active');
+	});
+
+	$('#project-tab').on('click', function(){
+		projectSamples.show();
+		skillSamples.hide();
+	});
+
+	$('#skill-tab').on('click', function(){
+		skillSamples.show();
+		projectSamples.hide();
+	});
+
+}
