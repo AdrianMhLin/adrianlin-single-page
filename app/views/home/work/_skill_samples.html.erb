@@ -1,28 +1,77 @@
-<div class="col-md-4 skill" id="wireframes" data-toggle="modal" data-target=".bs-example-modal-lg">
+<div class="col-md-4 skill" id="wireframes" data-toggle="modal" data-target="#modal-wireframes">
   <h3>Wireframes</h3>
 </div>
 <%= render 'home/work/skill_samples_partials/wireframes' %>
 
-<div class="col-md-4 skill" id="site-maps">
+<div class="col-md-4 skill" id="site-maps" data-toggle="modal" data-target="#modal-site-maps">
   <h3>Site maps</h3>
 </div>
+<%= render 'home/work/skill_samples_partials/site_maps' %>
 
-<div class="col-md-4 skill" id="flows">
+<div class="col-md-4 skill" id="flows" data-toggle="modal" data-target="#modal-flows">
   <h3>Flows</h3>
 </div>
+<%= render 'home/work/skill_samples_partials/flows' %>
 
-<div class="col-md-4 skill" id="prototypes">
+<div class="col-md-4 skill" id="prototypes" data-toggle="modal" data-target="#modal-prototypes">
   <h3>Prototypes</h3>
 </div>
+<%= render 'home/work/skill_samples_partials/prototypes' %>
 
-<div class="col-md-4 skill" id="documents">
+<div class="col-md-4 skill" id="documents" data-toggle="modal" data-target="#modal-documents">
   <h3>Documents</h3>
 </div>
+<%= render 'home/work/skill_samples_partials/documents' %>
 
-<div class="col-md-4 skill" id="research">
+<div class="col-md-4 skill" id="research" data-toggle="modal" data-target="#modal-research">
   <h3>Research</h3>
 </div>
+<%= render 'home/work/skill_samples_partials/research' %>
 
+
+<script>
+/* this doesn't seem to be working */
+/* 
+  $(document).ready(function(){
+    var wireframeModal = createModal(['/images/work/skill-samples/wireframes/1.png', '/images/work/skill-samples/wireframes/2.png', '/images/work/skill-samples/wireframes/3.png']);
+    // $('#wireframes').after(wireframeModal);
+  });
+
+  function createModal(imgArray) {
+    var modal = '',
+        imgArrayLength = imgArray.length;
+
+    modal += '<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"><div class="modal-dialog modal-lg"><div class="modal-content">';
+
+    modal +=  '<!-- CONTENT --> <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"><!-- Indicators --><ol class="carousel-indicators"><li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li><li data-target="#carousel-example-generic" data-slide-to="1"></li><li data-target="#carousel-example-generic" data-slide-to="2"></li></ol>';
+
+    // CODE GOES HERE
+
+    modal += '<!-- Wrapper for slides --><div class="carousel-inner" role="listbox">';
+
+    for (var i = 0; i < imgArrayLength; i++) {
+      modal += '<div class="item">';
+      modal += '<img src="' + imgArray[i] +'">';
+      modal += '<div class="carousel-caption">';
+      // modal += caption;
+      modal += '</div>';
+      modal += '</div>';
+    }
+    
+
+    modal += '</div>';
+
+    // CODE ENDS HERE 
+    modal += '<!-- Controls --><a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div><!-- / CONTENT --></div></div></div>';
+
+    
+    return modal;
+  }
+*/
+
+
+
+</script>
 
 
 

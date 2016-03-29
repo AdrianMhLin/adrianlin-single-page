@@ -13,6 +13,7 @@
 	border: dashed 1px green;
 	height:20vh;
 	background-size:cover;
+	cursor:pointer;
 }
 
 #wireframes {background-image:url('/images/work/skill-samples/wireframes/thumbnail.png');}
