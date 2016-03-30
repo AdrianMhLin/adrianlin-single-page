@@ -21,14 +21,15 @@
 	cursor:pointer;
 }
 
-#work-nav {
+#work-nav, #work-pdfs {
 	display:flex;
 	justify-content:center;
 }
-#work-nav ul {
 
+#work-pdfs a {
+	margin:2vw 1.5vw 0 1.5vw;
+	font-size:1.25em;
 }
-
 
 
 #designs {background-image:url('/images/work/skill-samples/designs/thumbnail.png');}

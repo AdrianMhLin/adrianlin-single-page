@@ -6,7 +6,7 @@ article {}
 body {
 	/*position:relative;*/
 	color:darkslategray;
-	padding:0 !important;
+
 }
 
 section {
@@ -30,10 +30,6 @@ article img {width:100%;}
 }
 
 
-body {
-    padding-top: 20px;
-    
-}
 
 .btn-default {
     top: 25%;
