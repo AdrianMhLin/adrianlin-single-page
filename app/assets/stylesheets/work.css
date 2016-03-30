@@ -35,6 +35,9 @@
 	margin:2vw 1.5vw 0 1.5vw;
 	font-size:1.25em;
 }
+#work-pdfs a:hover {
+	color:#ffb31a;
+}
 
 
 #designs {background-image:url('/images/work/skill-samples/designs/thumbnail.png');}
@@ -54,6 +57,13 @@
 	display:block;
 	text-align: center;
 }
+#work-nav {cursor:pointer;}
+#work a {color:#437070;}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color:teal;
+	color:white !important;
+}
+
 
 #work .modal {min-height: 50vh;}
 
@@ -79,11 +89,6 @@
 	background-color:teal;
 }
 
-#work a {color:#437070;}
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-	background-color:teal;
-	color:white !important;
-}
 
 
 
