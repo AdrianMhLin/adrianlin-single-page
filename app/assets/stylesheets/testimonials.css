@@ -11,7 +11,7 @@
 	margin: 0.25vw;
 	padding: 1vw;
 	border-radius:1vw;
-	background-color:rgba(255,255,255,0.5);
+	background-color:rgba(0,0,0,0.5);
 }
 /*.testimonial .margin-wrapper div {
 	background-color:rgba(0,0,0,0.6);
@@ -24,10 +24,18 @@
 }
 .testimonial p {
 	text-align: left;
-	color:white;
+	color:AliceBlue;
+	font-style:oblique;
+	font-size:1.1em;
+}
+.testimonial h4 {
+	text-align: center;
+	color:#ffb31a;
+}
+.job-role {
+	text-transform: uppercase;
 	font-style:oblique;
 }
-.testimonial h3, .testimonial h4 {text-align: center;}
 .testimonial img {
 	width:10vw;
 	height:10vw;
