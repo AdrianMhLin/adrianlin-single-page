@@ -10,36 +10,67 @@
 	margin: 2vw 0 2vw 0;
 }
 
+/* NAV */
+#work .nav {
+	display:block;
+	text-align: center;
+}
+#work-nav {cursor:pointer;}
+#work a {color:#437070;}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color:teal;
+	color:white !important;
+}
+
+
+/* sections */
 #work section {
 	padding:0;
 	overflow:hidden; /* causes parent to expand to size of floated children */
 }
 #work .skill, #work .project {
-	border: solid 1px gray;
-	height:20vh;
+/*	border: solid 1px gray;
+*/	height:25vh;
 	background-size:cover;
 	cursor:pointer;
 }
 
+/* work pdfs */
 #work-nav, #work-pdfs {
 	display:flex;
 	justify-content:center;
 }
-
 #work-pdfs {
 	padding:0 0 2vw 0;
 	margin:1.5vw 0 0 0;
 }
-
 #work-pdfs a {
 	margin:2vw 1.5vw 0 1.5vw;
 	font-size:1.25em;
 }
-#work-pdfs a:hover {
-	color:#ffb31a;
+#work-pdfs a:hover {color:#ffb31a;}
+
+
+
+
+
+
+#work .title {padding:0;}
+#work .title h3 {
+	background-color:rgba(255,255,255,0.60);
+	padding:1vw;
+	text-align: center;
+	margin:0;
+}
+#work .title:hover > h3  { /* hover on parent causes child to css effect */
+	color:white;
+	background-color: rgba(32, 178, 170, 0.60);
 }
 
+/*PROJECTS */
 
+
+/* SKILLS */
 #designs {background-image:url('/images/work/skill-samples/designs/thumbnail.png');}
 #project-management {background-image:url('/images/work/skill-samples/project-management/thumbnail.png');}
 #information-architecture {background-image:url('/images/work/skill-samples/information-architecture/thumbnail.png');}
@@ -53,33 +84,13 @@
 #yelp {background-image:url('');}
 #personal-website {background-image:url('');}
 
-#work .nav {
-	display:block;
-	text-align: center;
-}
-#work-nav {cursor:pointer;}
-#work a {color:#437070;}
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-	background-color:teal;
-	color:white !important;
-}
 
 
+
+
+
+/* MODAL */
 #work .modal {min-height: 50vh;}
-
-#work .title {
-	padding:0;
-}
-#work .title h3 {
-	background-color:rgba(255,255,255,0.60);
-	padding:1vw;
-	text-align: center;
-	margin:0;
-}
-
-
-
-
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
