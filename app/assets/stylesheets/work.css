@@ -14,14 +14,15 @@
 	height:20vh;
 	background-size:cover;
 	cursor:pointer;
+;
 }
 
-#wireframes {background-image:url('/images/work/skill-samples/wireframes/thumbnail.png');}
-#site-maps {background-image:url('/images/work/skill-samples/site-maps/thumbnail.png');}
-#flows {background-image:url('/images/work/skill-samples/flows/thumbnail.png');}
-#prototypes {background-image:url('/images/work/skill-samples/prototypes/thumbnail.png');}
+#designs {background-image:url('/images/work/skill-samples/designs/thumbnail.png');}
+#project-management {background-image:url('/images/work/skill-samples/project-management/thumbnail.png');}
+#information-architecture {background-image:url('/images/work/skill-samples/information-architecture/thumbnail.png');}
+#coding {background-image:url('/images/work/skill-samples/coding/thumbnail.png');}
 #documents {background-image:url('/images/work/skill-samples/documents/thumbnail.png');}
-#research {background-image:url('/images/work/skill-samples/research/thumbnail.png');}
+#user-research {background-image:url('/images/work/skill-samples/user-research/thumbnail.png');}
 
 
 #inked-voices {background-image:url('');}
