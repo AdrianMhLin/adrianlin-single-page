@@ -78,24 +78,20 @@
 	margin:0 1vw 0 1vw;
 }
 
-#inked-voices {background-image:url('/images/work/project-samples/inked-voices/thumbnail.png');}
-#linkedin {background-image:url('/images/work/project-samples/linkedin/thumbnail.png');}
-#yelp {background-image:url('/images/work/project-samples/yelp/thumbnail.png');}
-#personal-website {background-image:url('/images/work/project-samples/personal-website/thumbnail.png');}
-#colorappin {background-image:url('/images/work/project-samples/colorappin/thumbnail.png');}
+#thumbnail-inked-voices {background-image:url('/images/work/project-samples/inked-voices/thumbnail.png');}
+#thumbnail-linkedin {background-image:url('/images/work/project-samples/linkedin/thumbnail.png');}
+#thumbnail-yelp {background-image:url('/images/work/project-samples/yelp/thumbnail.png');}
+#thumbnail-personal-website {background-image:url('/images/work/project-samples/personal-website/thumbnail.png');}
+#thumbnail-colorappin {background-image:url('/images/work/project-samples/colorappin/thumbnail.png');}
 
 
 /* SKILLS */
-#designs {background-image:url('/images/work/skill-samples/designs/thumbnail.png');}
-#project-management {background-image:url('/images/work/skill-samples/project-management/thumbnail.png');}
-#information-architecture {background-image:url('/images/work/skill-samples/information-architecture/thumbnail.png');}
-#coding {background-image:url('/images/work/skill-samples/coding/thumbnail.png');}
-#documents {background-image:url('/images/work/skill-samples/documents/thumbnail.png');}
-#user-research {background-image:url('/images/work/skill-samples/user-research/thumbnail.png');}
-
-
-
-
+#thumbnail-designs {background-image:url('/images/work/skill-samples/designs/thumbnail.png');}
+#thumbnail-project-management {background-image:url('/images/work/skill-samples/project-management/thumbnail.png');}
+#thumbnail-information-architecture {background-image:url('/images/work/skill-samples/information-architecture/thumbnail.png');}
+#thumbnail-coding {background-image:url('/images/work/skill-samples/coding/thumbnail.png');}
+#thumbnail-documents {background-image:url('/images/work/skill-samples/documents/thumbnail.png');}
+#thumbnail-user-research {background-image:url('/images/work/skill-samples/user-research/thumbnail.png');}
 
 
 
@@ -111,5 +107,7 @@
 }
 
 
+/*PROJECT PAGE */
+.page-project img {max-width:100%;}
 
 
