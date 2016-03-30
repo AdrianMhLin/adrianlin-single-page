@@ -26,15 +26,16 @@
 #contact-media img {
 	width: 5vw;
 	margin: 0.5vw;
-	filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
-    filter: gray;  /* For IE 6 - 9 */
-    -webkit-transition: all .1s ease;  /* Transition for Webkit browsers */
+	/*filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  
+    filter: gray; 
+    -webkit-transition: all .1s ease; */
 }
 
-#contact-media img:hover {
+/*#contact-media img:hover {
 	filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     filter: none;
 }
 
+*/

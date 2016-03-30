@@ -68,6 +68,21 @@
 }
 
 /*PROJECTS */
+#project-samples ul {
+	padding:0;
+	margin-left: 0.5vw;
+}
+#project-samples ul li {
+	float:left;	
+	list-style-type:disc;
+	margin:0 1vw 0 1vw;
+}
+
+#inked-voices {background-image:url('/images/work/project-samples/inked-voices/thumbnail.png');}
+#linkedin {background-image:url('/images/work/project-samples/linkedin/thumbnail.png');}
+#yelp {background-image:url('/images/work/project-samples/yelp/thumbnail.png');}
+#personal-website {background-image:url('/images/work/project-samples/personal-website/thumbnail.png');}
+#colorappin {background-image:url('/images/work/project-samples/colorappin/thumbnail.png');}
 
 
 /* SKILLS */
@@ -78,11 +93,6 @@
 #documents {background-image:url('/images/work/skill-samples/documents/thumbnail.png');}
 #user-research {background-image:url('/images/work/skill-samples/user-research/thumbnail.png');}
 
-
-#inked-voices {background-image:url('');}
-#linkedin {background-image:url('');}
-#yelp {background-image:url('');}
-#personal-website {background-image:url('');}
 
 
 
