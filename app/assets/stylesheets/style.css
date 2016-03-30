@@ -3,11 +3,12 @@ article {}
 
 
 /* later get rid of above */
-body {
-	/*position:relative;*/
-	color:darkslategray;
+p, h3 {color:#437070;}
+h1, h2 {color:goldenrod;}
 
-}
+a, h1,h2,h3,h4,h5,h6 {font-family:calibri;}
+p {font-family:garamond;}
+p, a {font-size:1.25em;}
 
 section {
 	clear:both;
@@ -28,6 +29,7 @@ article img {width:100%;}
 	width:100%; 
 	height:100vh;
 }
+
 
 
 

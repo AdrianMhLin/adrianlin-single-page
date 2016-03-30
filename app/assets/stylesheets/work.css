@@ -52,6 +52,15 @@
 
 #work .modal {min-height: 50vh;}
 
+#work .title {
+	padding:0;
+}
+#work .title h3 {
+	background-color:rgba(255,255,255,0.60);
+	padding:1vw;
+	text-align: center;
+	margin:0;
+}
 
 
 #work-pdfs.transparent-wrapper {
@@ -64,11 +73,15 @@
 }
 
 .carousel-indicators li {
-	border: 1px solid darkslategray;
-	background-color:darkslategray;
+	border: 1px solid teal;
+	background-color:teal;
 }
 
-
+#work a {color:#437070;}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color:teal;
+	color:white !important;
+}
 
 
 

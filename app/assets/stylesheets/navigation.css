@@ -3,14 +3,14 @@
 	background-color:AliceBlue;
 }
 #primary-nav li a{
-	color:darkslategray;
+	color:#437070;
 }
 #primary-nav li:hover {
 }
 
 
 #primary-nav a.nav-active {
-	color:turquoise;
+	color:darkturquoise;
 }
 
 
