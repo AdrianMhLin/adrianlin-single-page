@@ -6,13 +6,20 @@
 
 }
 
-#contact-form iframe, #contact-media div, #contact-details {
-	display:block;
-	margin:0 auto;
+#contact-media div, #contact-details {
+	display:flex;
+	justify-content:center;
 }
 
 #contact-details h3 {
+	margin: 1vw;
+}
 
+#contact-media {
+	display:flex;
+	justify-content:center;
+/*	bottom: 5vw;
+	position:relative;*/
 }
 
 #contact-media img {

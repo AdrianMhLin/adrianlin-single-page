@@ -15,12 +15,21 @@
 	overflow:hidden; /* causes parent to expand to size of floated children */
 }
 #work .skill, #work .project {
-	border: solid 1px darkslategray;
+	border: solid 1px gray;
 	height:20vh;
 	background-size:cover;
 	cursor:pointer;
-;
 }
+
+#work-nav {
+	display:flex;
+	justify-content:center;
+}
+#work-nav ul {
+
+}
+
+
 
 #designs {background-image:url('/images/work/skill-samples/designs/thumbnail.png');}
 #project-management {background-image:url('/images/work/skill-samples/project-management/thumbnail.png');}
