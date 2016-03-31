@@ -50,7 +50,7 @@
 		background-image: url('/images/contact/m-bg.jpg');
 		background-size:100%;
 	}
-	#contact .transparent-wrapper {margin-top:50vh;}
+	#contact .transparent-wrapper {margin-top:30vh;}
 	#contact img {width:8vh;}
 	#contact a {font-size:1em;}
 }
