@@ -4,6 +4,7 @@
 @media screen and (max-width:500px) {
 	#testimonials {
 		background-image: url('/images/testimonials/m-bg.jpg');
+		background-size:100%;
 		height:130vh;
 	}
 	#testimonials .desktop-wrapper {display:none !important;}

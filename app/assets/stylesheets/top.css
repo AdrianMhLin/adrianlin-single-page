@@ -19,5 +19,6 @@
 @media screen and (max-width:500px) {
 	#top {
 		background-image:url('/images/top/m-bg.jpg');
+		background-size:100%;
 	}
 }
