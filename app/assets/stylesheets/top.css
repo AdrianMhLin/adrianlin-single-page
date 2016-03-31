@@ -13,3 +13,11 @@
 }
 
 #top h1 {font-size:4em;}
+
+
+/* mobile version */
+@media screen and (max-width:500px) {
+	#top {
+		background-image:url('/images/top/m-bg.jpg');
+	}
+}

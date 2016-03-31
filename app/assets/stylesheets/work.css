@@ -16,7 +16,10 @@
 	text-align: center;
 }
 #work-nav {cursor:pointer;}
-#work a {color:#437070;}
+#work a {
+	color:#437070;
+	font-size:1.5em;
+}
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
 	background-color:teal;
 	color:white !important;
@@ -46,7 +49,8 @@
 }
 #work-pdfs a {
 	margin:2vw 1.5vw 0 1.5vw;
-	font-size:1.25em;
+	font-size:1.5em;
+	text-decoration: none;
 }
 #work-pdfs a:hover {color:#ffb31a;}
 

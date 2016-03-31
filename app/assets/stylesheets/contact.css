@@ -2,7 +2,7 @@
 	background-image: url('/images/contact/bg.jpg');
 	background-size:cover;
 	background-attachment: fixed;
-	height:95vh;
+	height:92vh;
 }
 
 
@@ -11,8 +11,9 @@
 	margin:1vw 2vw 2vw 2vw;
 }
 #contact-media div, #contact-details {
-	display:flex;
+	/*display:flex;*/
 	justify-content:center;
+	padding:1vw;
 }
 
 #contact-details h3 {
@@ -20,8 +21,8 @@
 }
 
 #contact-media {
-	display:flex;
-	justify-content:center;
+	/*display:flex;
+	justify-content:center;*/
 /*	bottom: 5vw;
 	position:relative;*/
 }
@@ -42,3 +43,11 @@
 }
 
 */
+
+/* mobile version */
+@media screen and (max-width:500px) {
+	#contact {background-image: url('/images/contact/m-bg.jpg')}
+	#contact .transparent-wrapper {margin-top:50vh;}
+	#contact img {width:8vh;}
+	#contact a {font-size:1em;}
+}

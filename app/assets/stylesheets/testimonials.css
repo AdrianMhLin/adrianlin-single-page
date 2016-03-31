@@ -1,12 +1,33 @@
+
+
+/* mobile version */
+@media screen and (max-width:500px) {
+	#testimonials {
+		background-image: url('/images/testimonials/m-bg.jpg');
+		height:130vh;
+	}
+	#testimonials .desktop-wrapper {display:none !important;}
+
+}
+
+/* desktop version */
+@media screen and (min-width: 501px) {
+	#testimonials .mobile-wrapper {display:none !important;}
+	#testimonials {
+		background-image: url('/images/testimonials/bg.jpg');
+		height:100vh;
+	}
+}
+
+
+
+
 #testimonials {
-	background-image: url('/images/testimonials/bg.jpg');
 	background-attachment: fixed;
 	background-size:cover;
 	width:100%;
-	height:100vh;
+	
 }
-
-.testimonial {}
 .testimonial .margin-wrapper {
 	margin: 0.25vw;
 	padding: 1vw;
