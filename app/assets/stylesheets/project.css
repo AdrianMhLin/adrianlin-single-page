@@ -1,0 +1,22 @@
+/*
+#page-inked-voices .project-phase {
+	width:100%;
+}
+
+#page-inked-voices .project-step {
+	width:50%;
+}
+*/
+
+.page-project section {
+	clear:none; /* this was causing all the trouble */
+}
+
+.page-project .project-phase {
+	border:solid 1px green;
+	
+}
+.page-project .project-step {
+	border:solid 1px red;
+	float:left;
+}
