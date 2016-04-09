@@ -40,7 +40,7 @@ function setScrollWhenClicked() {
 
 	nav.find('a').on('click', function () {
 	  var $el = $(this), 
-	  		id = $el.attr('href');
+	  		id = $el.attr('href' + '-start');
 	  
 	  $('html, body').animate({
 	    scrollTop: $(id).offset().top - nav_height
