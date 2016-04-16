@@ -1,40 +1,13 @@
-/*
-#page-inked-voices .project-phase {
-	width:100%;
-}
-
-#page-inked-voices .project-step {
-	width:50%;
-}
-*/
-
-
-/*
-.page-project .project-phase2 {
-	border:solid 1px green;
-	clear:both;
-}
-.page-project .project-step2 {
-	border:solid 1px red;
-	float:left;
-}
-*/
 
 .project-phase {
-	/*border:solid 1px green;*/
 	clear:both;
 	overflow:hidden;
 }
-/*.page-project section {
-	padding:0;
-	clear:none;
-	margin: 5vh 0 5vh 0;
-}*/
+
 .page-project section {padding:0;}
 .page-project section > img {width:100%;}
 
 .page-project div {
-	/*border:dashed 1px gold;*/
 	min-height:20vh; /* check this */
 	padding:5vh;
 }
