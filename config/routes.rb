@@ -5,12 +5,12 @@ Rails.application.routes.draw do
   get '/portfolio' => 'work#portfolio'
   get '/resume' => 'work#resume'
 
-  get '/project/inked-voices' => 'work#inked_voices'
-  get '/project/linkedin' => 'work#linkedin'
-  get '/project/yelp' => 'work#yelp'
-  get '/project/personal-website' => 'work#personal_website'
-  get '/project/colorappin' => 'work#colorappin'
-  get '/project/timekeep' => 'work#timekeep'
+  get '/projects/inked-voices' => 'work#inked_voices'
+  get '/projects/linkedin' => 'work#linkedin'
+  get '/projects/yelp' => 'work#yelp'
+  get '/projects/personal-website' => 'work#personal_website'
+  get '/projects/colorappin' => 'work#colorappin'
+  get '/projects/timekeep' => 'work#timekeep'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
