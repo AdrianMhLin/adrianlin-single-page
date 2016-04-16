@@ -30,6 +30,9 @@
 	clear:none;
 	margin: 5vh 0 5vh 0;
 }*/
+.page-project section {padding:0;}
+.page-project section > img {width:100%;}
+
 .page-project div {
 	/*border:dashed 1px gold;*/
 	min-height:20vh; /* check this */
