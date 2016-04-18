@@ -11,3 +11,5 @@
 	min-height:20vh; /* check this */
 	padding:5vh;
 }
+.page-project h2, .centered {text-align: center;}
+.page-project p.caption {font-style:italic;}
