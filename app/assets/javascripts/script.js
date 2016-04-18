@@ -6,8 +6,25 @@ $(document).ready(function(){
 	setScrollWhenClicked();
 
 	setUpWorkNav();
+	// indexOrProjectPageNav();
+	setActiveOnSecondaryNav()
+  
 
 });
+
+// function indexOrProjectPageNav() {
+// 	if ( $('.page-project').length > 0 ) {
+//     var liaArray = $('li[role="presentation"] > a');
+
+//     for (var i = 0; i < liaArray.length; i++) {
+//     	var thisA = $(liaArray[i]);
+//     			currentHref = $(liaArray[i]).attr('href');
+//     			newHref = '/' + currentHref;
+
+//     	thisA.attr('href', newHref);
+//     }  
+//   } 
+// }
 
 
 function setChangeStateOnScroll() {
@@ -31,6 +48,13 @@ function setChangeStateOnScroll() {
 	    }
 	  });
 	});
+}
+
+function setActiveOnSecondaryNav() {
+	var fullPath = window.location.pathname,
+			partPath = fullPath.replace('/projects/', '');
+
+			//TODO:
 }
 
 function setScrollWhenClicked() {

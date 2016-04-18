@@ -1,3 +1,5 @@
+
+/* Primary Nav */
 #primary-nav {
 	font-size: 2.5vh;
 	background-color:AliceBlue;
@@ -17,6 +19,26 @@
 #primary-nav .pdf-item {float:right;}
 
 
+
+/* Projects-nav */
+#projects-nav {
+	background-color:gold;
+	font-size:1.75vh;
+
+}
+#projects-nav li {
+	float:left;
+	color:brown;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
 footer {
 	display:flex;
 	background-color: #437070;
