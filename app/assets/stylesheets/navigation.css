@@ -22,14 +22,11 @@
 
 /* Projects-nav */
 #projects-nav {
-	background-color:gold;
+	background-color:#FFF8C6;
 	font-size:1.75vh;
-
 }
-#projects-nav li {
-	float:left;
-	color:brown;
-}
+#projects-nav li {float:left;}
+#projects-nav li a {color:#ffb31a !important;}
 
 
 
