@@ -13,3 +13,8 @@
 }
 .page-project h2, .centered {text-align: center;}
 .page-project p.caption {font-style:italic;}
+
+
+/* project colour schemes */
+#page-inked-voices h2 {color:#7F517F;}
+#page-linkedin h2 {color:#00A0DC;}
