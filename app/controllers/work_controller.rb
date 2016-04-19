@@ -1,11 +1,11 @@
 class WorkController < ApplicationController
 
   def portfolio
-    render :portfolio
+    render :portfolio2
   end
 
   def resume
-    render :resume
+    render :resume2
   end
 
   def inked_voices
