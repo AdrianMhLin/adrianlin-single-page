@@ -16,7 +16,9 @@
 
 
 /* project colour schemes */
-#page-inked-voices h2 {color:#7F517F;}
-#page-linkedin h2 {color:#00A0DC;}
+#page-inked-voices h1, #page-inked-voices h2 {color:#7F517F;}
+#page-linkedin h1, #page-linkedin h2 {color:#00A0DC;}
+#page-yelp h1, #page-yelp h2 {color:#BF311B;}
+#page-personal-website h1, #page-personal-website h2 {color:#20B2AA;}
 
 /*test*/
