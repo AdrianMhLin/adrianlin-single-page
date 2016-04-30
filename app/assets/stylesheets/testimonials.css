@@ -34,11 +34,7 @@
 	border-radius:1vw;
 	background-color:rgba(0,0,0,0.5);
 }
-/*.testimonial .margin-wrapper div {
-	background-color:rgba(0,0,0,0.6);
-	padding:1vw;
-	text-align: center;
-}*/
+
 .testimonial .margin-wrapper * {
 	margin: 0 auto;
 	display:block;
