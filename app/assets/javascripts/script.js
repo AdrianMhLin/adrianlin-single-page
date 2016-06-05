@@ -72,10 +72,10 @@ function setActiveOnSecondaryNav() {
 function removeSlashFromMainPageHrefs() {
 	// when the navbar is clicked, check if page is homepage and if not, add '/' to the front of the href. this means that i can have one nav partial and have my links go to the main page when on other pages, but stay on teh same page if its the main page already, so it doesnt refresh but rather scrolls. this works with setScrollWhenClicked.
     const 	PRIMARY_NAV = $('#primary-nav');
-    const	MY_DOMAIN_NAME = 'localhost:3000/';
+    const	MY_DOMAIN_NAME = 'www.adrianlin.com';
 
     PRIMARY_NAV.find('a').on('click', function(){
-    	let pageUrl = $(location).attr('href').replace('http://', '').replace('https://', ''),
+    	let pageUrl = $(location).attr('href').replace('http://', '').replace('https://', '').toLowerCase(),
     		thisLink = $(this);
 
     	if (pageUrl === MY_DOMAIN_NAME) {
