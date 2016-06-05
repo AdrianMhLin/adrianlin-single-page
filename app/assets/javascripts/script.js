@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
 	
-	removeSlashFromMainPageHrefs();
+	// removeSlashFromMainPageHrefs();
 
 	/* navbar scrolls to top then gets fixed to top */
 	$('#primary-nav').scrollToFixed();
