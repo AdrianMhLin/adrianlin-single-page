@@ -64,9 +64,9 @@ function setChangeStateOnScroll() {
 
 function setActiveOnSecondaryNav() {
 	var fullPath = window.location.pathname,
-			partPath = fullPath.replace('/projects/', '');
+		partPath = fullPath.replace('/projects/', '');
 
-			//TODO:
+		//TODO:
 }
 
 function removeSlashFromMainPageHrefs() {
